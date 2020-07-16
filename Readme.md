@@ -1,6 +1,6 @@
 This repository contains Packer specification for the AMI used by Terraform
 
-(https://circleci.com/gh/superbounou/livestorm_app.svg?style=svg)
+![CircleCI](https://circleci.com/gh/superbounou/livestorm_app.svg?style=svg)
 
 # Usage
 
@@ -9,4 +9,4 @@ cp env.example .env
 # edit your credentials
 source .env
 packer build nginx.json
-``
+```
